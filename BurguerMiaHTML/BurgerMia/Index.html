@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BurgerMia</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="cabecalho">
+			<div class="one-third column">
+	 			<img src="imgs/LogoMia.png" class="logo">
+			</div>
+			<div class="one-third column">
+				<img src="imgs/Burger_logo.png" class="nome_logo">
+			</div>
+			<button href="#" class="show-menu">Abrir menu</button>
+			<div class="modal-content" style="display: none;">
+			</div>
+		</header>
+	</div>
+
+	<div id="news" class="container">
+
+		<div class="row">
+			<h1>Peça já o seu</h1>
+			<hr>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3">
+				<img src="imgs/abstract.jpg" alt="noticias">
+			</div>
+			<div class="col-md-3">
+				<img src="imgs/bread-01.jpg" alt="noticias">
+			</div>
+			<div class="col-md-3">
+				<img src="imgs/bread-02.jpg" alt="noticias">
+			</div>
+			<div class="col-md-3">
+				<img src="imgs/kebab.jpg" alt="noticias">
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		$(function(){
+			jQuery(".show-menu").click(function(){
+				jQuery(".modal-content").toggle(600);
+			});
+		});
+	</script>
+</body>
+</html>
